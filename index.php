@@ -26,3 +26,5 @@ include("inc/header.php"); ?>
     </div>
 
 <?php include("inc/footer.php"); ?>
+
+// testing commit with github
