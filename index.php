@@ -10,7 +10,7 @@ include("inc/header.php"); ?>
 
         <div class="wrapper">
 
-            <h2>May we suggest something? test and another test here</h2>
+            <h2>May we suggest something?</h2>
 
             <ul class="items">
             <?php
@@ -24,8 +24,6 @@ include("inc/header.php"); ?>
         </div>
 
     </div>
-
-    // testing commit with github
 
 <?php include("inc/footer.php"); ?>
 
