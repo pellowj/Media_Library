@@ -10,9 +10,10 @@ try {
 }
 
 try {
-    $results = $db->query("SELECT title, category FROM Media");
-    echo "Retrieved Results";
+    $results = $db->query("SELECT title, category, img FROM Media");
 } catch (Exception $e) {
     echo "Unable to retrieve results";
     exit;
 }
+
+var_dump($results->fetchAll(PDO::FETCH_ASSOC));
