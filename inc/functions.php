@@ -3,13 +3,13 @@ function full_catalog_array() {
     include("connection.php");
 
     try {
-        $results = $db->query("SELECT title, category, img FROM Media");
+        $results = $db->query("SELECT media_id, title, category, img FROM Media");
     } catch (Exception $e) {
         echo "Unable to retrieve results";
         exit;
     }
     
-    $catalog = ($results->fetchAll());
+    $catalog = $results->fetchAll();
     return $catalog;
 }
 
