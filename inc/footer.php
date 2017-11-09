@@ -4,12 +4,7 @@
 
 		<div class="wrapper">
 
-			<ul>		
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">Facebook</a></li>
-			</ul>
-
-			<p>&copy;<?php echo date("Y"); ?> Personal Media Library</p>
+			<p>&copy;<?php echo date("Y"); ?> Mama Mia's</p>
 
 		</div>
 	
