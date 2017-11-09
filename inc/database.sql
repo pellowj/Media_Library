@@ -366,42 +366,11 @@ CREATE TABLE `Media` (
 	`year`	int(4) NOT NULL,
 	`category`	varchar(6) NOT NULL
 );
-INSERT INTO `Media` VALUES (1,'A Design Patterns: Elements of Reusable Object-Oriented Software','img/media/design_patterns.jpg',17,'Paperback',1994,'Books');
-INSERT INTO `Media` VALUES (2,'Clean Code: A Handbook of Agile Software Craftsmanship','img/media/clean_code.jpg',17,'Ebook',2008,'Books');
-INSERT INTO `Media` VALUES (3,'Refactoring: Improving the Design of Existing Code','img/media/refactoring.jpg',17,'Hardcover',1999,'Books');
-INSERT INTO `Media` VALUES (4,'The Clean Coder: A Code of Conduct for Professional Programmers','img/media/clean_coder.jpg',17,'Audio',2011,'Books');
-INSERT INTO `Media` VALUES (5,'Forrest Gump','img/media/forest_gump.jpg',24,'DVD',1994,'Movies');
-INSERT INTO `Media` VALUES (6,'Office Space','img/media/office_space.jpg',3,'Blu-ray',1999,'Movies');
-INSERT INTO `Media` VALUES (7,'The Lord of the Rings: The Fellowship of the Ring','img/media/lotr.jpg',4,'Blu-ray',2001,'Movies');
-INSERT INTO `Media` VALUES (8,'The Princess Bride','img/media/princess_bride.jpg',3,'DVD',1987,'Movies');
-INSERT INTO `Media` VALUES (9,'Beethoven: Complete Symphonies','img/media/beethoven.jpg',33,'CD',2012,'Music');
-INSERT INTO `Media` VALUES (10,'Elvis Forever','img/media/elvis_presley.jpg',49,'Vinyl',2015,'Music');
-INSERT INTO `Media` VALUES (11,'No Fences','img/media/garth_brooks.jpg',34,'Cassette',1990,'Music');
-INSERT INTO `Media` VALUES (12,'The Very Thought of You','img/media/nat_king_cole.jpg',42,'MP3',2008,'Music');
-INSERT INTO `Media` VALUES (13,'The Hobbit and the Lord of the Rings','img/media/hobbit_lotr.jpg',4,'Paperback',2012,'Books');
-INSERT INTO `Media` VALUES (14,'Much Ado About Nothing','img/media/much_ado_book.jpg',3,'Paperback',2015,'Books');
-INSERT INTO `Media` VALUES (15,'How to Win Friends & Influence People','img/media/carnegie.jpg',51,'Paperback',1990,'Books');
-INSERT INTO `Media` VALUES (16,'The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change','img/media/7habits.jpg',51,'Paperback',2013,'Books');
-INSERT INTO `Media` VALUES (17,'Mind Performance Hacks: Tips & Tools for Overclocking Your Brain','img/media/performance_hacks.jpg',50,'Kindle',2006,'Books');
-INSERT INTO `Media` VALUES (18,'Where the Sidewalk Ends: Poems and Drawings','img/media/sidewalk.jpg',52,'Hardcover',2014,'Books');
-INSERT INTO `Media` VALUES (19,'The Complete Book of Crochet Stitch Designs: 500 Classic & Original Patterns','img/media/complete_crochet.jpg',53,'Hardcover',2007,'Books');
-INSERT INTO `Media` VALUES (20,'Hello Ruby: Adventures in Coding ','img/media/hello_ruby.jpg',17,'Hardcover',2015,'Books');
-INSERT INTO `Media` VALUES (21,'The Sound of Music','img/media/sound_of_music.jpg',27,'DVD',1965,'Movies');
-INSERT INTO `Media` VALUES (22,'Much Ado About Nothing','img/media/much_ado_movie.jpg',3,'DVD',1993,'Movies');
-INSERT INTO `Media` VALUES (23,'It''s a Wonderful Life (60th Anniversary Edition)','img/media/wonderful_life.jpg',24,'DVD',1946,'Movies');
-INSERT INTO `Media` VALUES (24,'Captain America: The First Avenger','img/media/captain_america.jpg',1,'Blue-ray',2011,'Movies');
-INSERT INTO `Media` VALUES (25,'Casablanca 70th Anniversary: Special Edition','img/media/casablanca.jpg',13,'DVD',1942,'Movies');
-INSERT INTO `Media` VALUES (26,'Mission: Impossible ','img/media/mission_impossible.jpg',1,'DVD',1996,'Movies');
-INSERT INTO `Media` VALUES (27,'Frozen','img/media/frozen.jpg',20,'DVD',2013,'Movies');
-INSERT INTO `Media` VALUES (28,'Star Wars: The Complete Saga (Episodes I-VI)','img/media/star_wars.jpg',4,'Blu-ray',2015,'Movies');
-INSERT INTO `Media` VALUES (29,'Star Was: The Ultimate Soundtrack Collection','img/media/soundtrack_starwars.jpg',54,'CD',2016,'Music');
-INSERT INTO `Media` VALUES (30,'Pentatonix','img/media/pentatonix.jpg',49,'CD',2015,'Music');
-INSERT INTO `Media` VALUES (31,'Ultimate Sinatra','img/media/sinatra.jpg',36,'Vinyl',2015,'Music');
-INSERT INTO `Media` VALUES (32,'Led Zeppelin I (Remastered Original Vinyl)','img/media/led_zeppelin.jpg',49,'Vinyl',2014,'Music');
-INSERT INTO `Media` VALUES (33,'Thriller','img/media/michael_jackson.jpg',55,'Cassette',1982,'Music');
-INSERT INTO `Media` VALUES (34,'Beethoven''s Last Night','img/media/trans-siberian.jpg',33,'MP3',2011,'Music');
-INSERT INTO `Media` VALUES (35,'25 Adele','img/media/adele.jpg',46,'MP3',2015,'Music');
-INSERT INTO `Media` VALUES (36,'All-Time Greatest Hits','img/media/leann_rimes.jpg',34,'Streaming',2015,'Music');
+
+INSERT INTO `Media` VALUES (1,'Veggie Pizza','img/media/veggie.png',55,'Cassette',1982,'Music');
+INSERT INTO `Media` VALUES (2,'Sausage Pizza','img/media/sausage.png',33,'MP3',2011,'Music');
+INSERT INTO `Media` VALUES (3,'Pepperoni Pizza','img/media/pepperoni.png',46,'MP3',2015,'Music');
+INSERT INTO `Media` VALUES (4,'Cheese Pizza','img/media/cheese.png',34,'Streaming',2015,'Music');
 DROP TABLE IF EXISTS `Genres`;
 CREATE TABLE `Genres` (
   `genre_id` int(11) NOT NULL,

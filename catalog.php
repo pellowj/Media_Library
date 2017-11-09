@@ -3,7 +3,7 @@
 include("inc/functions.php");
 $catalog = full_catalog_array();
 
-$pageTitle = "Full Catalog";
+$pageTitle = "Pizza's";
 $section = null;
 
 if (isset($_GET["cat"])) {
