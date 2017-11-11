@@ -1,17 +1,27 @@
 <?php 
-$pageTitle = "Mama Mia's Pizzaria";
-include("inc/header.php");
-?>
+include("inc/functions.php");
 
+$pageTitle = "Personal Media Library";
+$section = null;
 
-<div class="container">
-              <div class="jumbotron">
-                  <img class="img-responsive" src="img/logo.jpg" alt="Mama Mia logo">
-              </div>
-</div>
+include("inc/header.php"); ?>
+		<div class="section catalog random">
 
-<?php
-include("inc/footer.php"); 
+			<div class="wrapper">
 
+				<h2>May we suggest something?</h2>
 
+        <ul class="items">
+            <?php
+            $random = random_catalog_array();
+            foreach ($random as $item) {
+                echo get_item_html($item);
+            }
+            ?>							
+				</ul>
 
+			</div>
+
+		</div>
+
+<?php include("inc/footer.php"); ?>

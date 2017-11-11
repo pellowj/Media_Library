@@ -4,7 +4,12 @@
 
 		<div class="wrapper">
 
-			<p>&copy;<?php echo date("Y"); ?> Mama Mia's</p>
+			<ul>		
+				<li><a href="http://twitter.com/treehouse">Twitter</a></li>
+				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
+			</ul>
+
+			<p>&copy;<?php echo date("Y"); ?> Personal Media Library</p>
 
 		</div>
 	
